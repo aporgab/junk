@@ -1,0 +1,34 @@
+# =================================================================
+# Just a dummy yaml for random parsing testing
+# =================================================================
+host:
+  # Hosting details
+  name: MyHost
+  # Host Description
+  description: Some hosted server
+  # Administrator (admin) User's Password
+  password: HaHaLikeIWouldDoThis
+  # Database Service Type: db2 or mysql
+  database_service_type: db2
+  # Features: The features along with enabled or disabled.
+  features:
+    feature1: enabled
+    feature_two: enabled
+    feature_three: disabled
+  # Topology: name(s) for each role topology.
+  pathDetails:
+    scripts: scripts
+    tables: tryListingWithCommas
+    files: tryFullPathWithSlashes
+    
+# ================================================================
+# Environment Information
+# ================================================================
+environment:
+  dev: myDev
+  default_attributes:
+  # (Optional) Add Default Environment Attributes
+
+  override_attributes:
+  # (Optional) Add Override Environment Attributes
+
